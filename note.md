@@ -1,3 +1,4 @@
+- go to setting -> Android SDK -> sdk tool install sdk "29.0.2"
 - update sdk.dir and ndk.dir in local.properties (go to file -> project structure -> sdk location to check for dir path)
 - add gradle.properties file in the root directory of the project
 - update gradle version from `5.4.1` to `7.2` in `gradle-wrapper.properties`
