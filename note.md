@@ -1,0 +1,8 @@
+- update sdk.dir and ndk.dir in local.properties (go to file -> project structure -> sdk location to check for dir path)
+- add gradle.properties file in the root directory of the project
+- update gradle version from `5.4.1` to `7.2` in `gradle-wrapper.properties`
+- update gradle build tools version from `3.5.0` to `4.2.0` in `build.gradle` in the root directory of the project
+- download `ncnn-20210525-android-vulkan.zip` from https://github.com/Tencent/ncnn/releases?page=2
+- extract `ncnn-20210525-android-vulkan.zip` to `app/src/main/jni` and update `ncnn_DIR` path in `app/src/main/jni/CMakeLists.txt`
+- download `opencv-mobile-4.5.1-android` from https://github.com/nihui/opencv-mobile/releases?page=2
+- extract `opencv-mobile-4.5.1-android.zip` to `app/src/main/jni` and update `OpenCV_DIR` path in `app/src/main/jni/CMakeLists.txt`
