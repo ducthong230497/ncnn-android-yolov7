@@ -7,5 +7,6 @@
 - extract `ncnn-20210525-android-vulkan.zip` to `app/src/main/jni` and update `ncnn_DIR` path in `app/src/main/jni/CMakeLists.txt`
 - download `opencv-mobile-4.5.1-android` from https://github.com/nihui/opencv-mobile/releases?page=2
 - extract `opencv-mobile-4.5.1-android.zip` to `app/src/main/jni` and update `OpenCV_DIR` path in `app/src/main/jni/CMakeLists.txt`
+- update CMAKE_SOURCE_DIR in `app/src/main/jni/CMakeLists.txt` to the correct path to folder
 - sync and build the project
 - - visit https://github.com/ducthong230497/ncnn-android-yolov7/commit/608532b3a70b0beca70e9dddd7f3e5db376c1a1f to see the changes made to the project
